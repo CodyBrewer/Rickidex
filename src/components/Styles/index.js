@@ -11,7 +11,11 @@ export const CenterApp = styled.div`
 
 export const Header = styled.h1`
   font-size: 2rem;
+  font-family: 'GetSchwifty';
   margin: 1rem;
+  border: 1px solid red;
+  background: #000;
+  color: #fff;
   // @media (max-width: 375px) {
   @media ${device.mobileL} {
     font-size: 1.5rem;
