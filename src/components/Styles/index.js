@@ -1,5 +1,7 @@
 // import React from 'react';
 import styled from 'styled-components';
+import { device } from '../../constants';
+
 export const CenterApp = styled.div`
     margin: 0 auto
     display: flex;
@@ -10,7 +12,8 @@ export const CenterApp = styled.div`
 export const Header = styled.h1`
   font-size: 2rem;
   margin: 1rem;
-  0 @media (max-width: 375px) {
+  // @media (max-width: 375px) {
+  @media ${device.mobileL} {
     font-size: 1.5rem;
   }
 `;
@@ -19,7 +22,8 @@ export const CharacterGrid = styled.div`
   display: grid;
   grid-template-columns: 50% 50%;
   grid-auto-rows: 15rem;
-  @media (max-width: 375px) {
+  // @media (max-width: 375px) {
+  @media ${device.mobileL} {
     grid-template-columns: 100%;
     grid-auto-rows: 15rem;
   }
@@ -37,7 +41,8 @@ export const AvatarImage = styled.img`
   width: 35%;
   margin: 0.5rem;
 
-  @media (max-width: 375px) {
+  // @media (max-width: 375px) {
+  @media ${device.mobileL} {
     width: 50%;
   }
 `;
