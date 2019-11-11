@@ -5,7 +5,10 @@ import { CenterApp, Header } from './components/Styles';
 function App() {
   return (
     <CenterApp>
-      <Header>Welcome To a Rick and Morty App, Wubba lubba dub dub!</Header>
+      <Header>
+        <h2>Welcome To a Rick and Morty App </h2>
+        <h3>Wubba lubba dub dub!</h3>
+      </Header>
       <Characters />
     </CenterApp>
   );

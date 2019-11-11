@@ -9,16 +9,21 @@ export const CenterApp = styled.div`
     align-items: center;
 `;
 
-export const Header = styled.h1`
-  font-size: 2rem;
+export const Header = styled.div`
   font-family: 'GetSchwifty';
-  margin: 1rem;
-  border: 1px solid red;
   background: #000;
-  color: #fff;
+  color: #b7e4f9ff;
+  height: 100%;
+  text-align: center;
+  h2,
+  p {
+    margin: 0.5rem;
+  }
   // @media (max-width: 375px) {
   @media ${device.mobileL} {
-    font-size: 1.5rem;
+    h2 {
+      font-size: 2rem;
+    }
   }
 `;
 
