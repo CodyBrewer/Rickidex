@@ -15,6 +15,7 @@ export const Header = styled.div`
   color: #b7e4f9ff;
   height: 100%;
   text-align: center;
+  width: 100%;
   h2,
   p {
     margin: 0.5rem;
