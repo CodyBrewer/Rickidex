@@ -1,6 +1,7 @@
-import React from 'react';
-import Characters from './components/Characters/Characters';
-import { CenterApp, Header } from './components/Styles';
+import React from "react";
+import Characters from "./components/Characters/Characters";
+import { CenterApp, Header } from "./components/Styles";
+import Rickidex from "./components/Rickidex/Rickidex";
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
         <h2>Welcome To a Rick and Morty App </h2>
         <h3>Wubba lubba dub dub!</h3>
       </Header>
-      <Characters />
+      {/* <Characters /> */}
+      <Rickidex />
     </CenterApp>
   );
 }
